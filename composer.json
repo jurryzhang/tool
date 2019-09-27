@@ -1,0 +1,26 @@
+{
+  "name": "jurryzhang/tool",
+  "description": "desc",
+  "keywords": [
+    "framework",
+    "laravel",
+    "admin"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "authors": [
+    {
+      "name": "jurry zhang",
+      "email": "twtzhangjiahao@sina.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tool\\": "src/Tool"
+    }
+  }
+}
